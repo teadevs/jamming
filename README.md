@@ -1,2 +1,2 @@
 # jamming
-playlist app practice
+Build a playlist app for practice using React/JS/CSS/HTML
