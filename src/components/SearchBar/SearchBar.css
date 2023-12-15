@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
+
+.SearchBar {
+    padding: .5rem;
+    margin-top: 6px;
+    align-items: center; 
+}
+
+.SearchBar input {
+    width: 250px;
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.SearchButton {
+    width: 150px;
+    background-color: rgb(10, 222, 6);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.SearchButton:hover {
+    background-color: rgba(151, 218, 166, 0.92);
+    color: black;
+  }
+
+h2 {
+    font-size: 20px;
+    font-weight: 800;
+
+}

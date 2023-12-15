@@ -1,0 +1,70 @@
+body, 
+html,
+#root {
+    height: 60%;
+}
+
+html {
+    font-size: 16px;
+}
+
+h1{
+    padding: 1rem 0;
+    background-color: forestgreen;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    color:azure;
+    text-transform: uppercase;
+}
+
+h1 .highlight{
+    color:aquamarine;
+}
+
+h2 {
+    font-family: Verdana, sans-serif;
+    font-size: 1.1rem;
+    font-weight:500;
+    color: white;
+}
+
+.App {
+    height: 600px;
+    padding: 2 8% 10% 8%;
+    background-color: darkgreen;
+    font-family: Cambria, Cochin, serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.App-playlist{
+    display:flex;
+    width: 100%;
+    justify-content:center;
+}
+
+button {
+    color: white;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+button:hover {
+    color: rgb(23, 23, 23);
+    background-color: white;
+    opacity: 85%;
+}
+
+
+@media only screen and (max-width: 1020px) {
+    .App-playlist {
+      align-items: center;
+      flex-direction: column;
+    }
+  }
